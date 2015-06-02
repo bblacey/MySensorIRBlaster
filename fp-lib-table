@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MySensors_Radios)(type Github)(uri ${MYSGITHUB}/mysensors_radios.pretty)(options allow_pretty_writing_to_this_dir=${KIPRJMOD}/MySensors-COW.pretty)(descr ""))
+  (lib (name MySensors-BBL)(type KiCad)(uri ${MYSBBL}/footprints.pretty)(options "")(descr ""))
+)
