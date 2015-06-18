@@ -1,5 +1,6 @@
+*[-|.]bak
+*-[rescue|cache].lib
 Research/*
 Datasheets/*
 Media/*
-*[-|.]bak
 Project To-Do List.rtf

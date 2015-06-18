@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-28 BZR 5690)-product   date = Monday, June 01, 2015 'AMt' 11:45:17 AM
+Cmp-Mod V01 Created by Cvpcb (2015-05-28 BZR 5690)-product   date = Sunday, June 07, 2015 'AMt' 09:37:33 AM
 
 BeginCmp
 TimeStamp = /5546A980;
@@ -78,6 +78,13 @@ IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5555CBEF;
+Reference = C12;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /55455A80;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
@@ -85,29 +92,22 @@ IdModule  = Socket_Strips:Socket_Strip_Straight_2x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /554F7712;
-Reference = D1;
-ValeurCmp = Led_Small;
-IdModule  = LEDs:LED-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /554F7FC7;
-Reference = D2;
+Reference = D1;
 ValeurCmp = Err;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /554F6FDC;
-Reference = D3;
+Reference = D2;
 ValeurCmp = Tx;
 IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /554F66A4;
-Reference = D4;
+Reference = D3;
 ValeurCmp = Rx;
 IdModule  = LEDs:LED-0603;
 EndCmp
@@ -116,35 +116,49 @@ BeginCmp
 TimeStamp = /55452CD0;
 Reference = D5;
 ValeurCmp = IR LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = MySensors-BBL:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452D55;
 Reference = D6;
 ValeurCmp = IR LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = MySensors-BBL:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452D76;
 Reference = D7;
 ValeurCmp = IR LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = MySensors-BBL:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452DA6;
 Reference = D8;
 ValeurCmp = IR LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = MySensors-BBL:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452DDF;
 Reference = D9;
 ValeurCmp = IR LED;
-IdModule  = LEDs:LED-5MM;
+IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B2C30;
+Reference = D10;
+ValeurCmp = IR LED;
+IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B419A;
+Reference = D11;
+ValeurCmp = IR LED;
+IdModule  = MySensors-BBL:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
@@ -171,21 +185,21 @@ EndCmp
 BeginCmp
 TimeStamp = /554EAF5D;
 Reference = P3;
-ValeurCmp = A0-3 Inputs;
+ValeurCmp = Analog IN;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /55469631;
 Reference = P4;
-ValeurCmp = PWR INPUT;
+ValeurCmp = PWR;
 IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /554F2C4E;
+TimeStamp = /5555657D;
 Reference = Q1;
-ValeurCmp = MMBT4401;
+ValeurCmp = FDV303N;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
@@ -255,7 +269,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55450FBB;
 Reference = R10;
-ValeurCmp = 67.5;
+ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -295,6 +309,20 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /556B2D71;
+Reference = R16;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B4216;
+Reference = R17;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /55454140;
 Reference = U1;
 ValeurCmp = ATSHA204A;
@@ -327,6 +355,20 @@ TimeStamp = /554F4DAE;
 Reference = U5;
 ValeurCmp = AMS1117-3.3;
 IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /555587D1;
+Reference = U6;
+ValeurCmp = AMS1117-5.0;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /55562627;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = Crystals_Oscillators_SMD:crystal_FA238-TSX3225;
 EndCmp
 
 EndListe
