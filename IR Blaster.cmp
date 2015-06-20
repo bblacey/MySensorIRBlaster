@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-28 BZR 5690)-product   date = Sunday, June 07, 2015 'AMt' 09:37:33 AM
+Cmp-Mod V01 Created by Cvpcb (2015-05-28 BZR 5690)-product   date = Saturday, June 20, 2015 'AMt' 07:21:34 AM
 
 BeginCmp
 TimeStamp = /5546A980;
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /554E8EE6;
 Reference = P2;
 ValeurCmp = IR Receiver;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -193,7 +193,7 @@ BeginCmp
 TimeStamp = /55469631;
 Reference = P4;
 ValeurCmp = PWR;
-IdModule  = Connect:PINHEAD1-2;
+IdModule  = MySensors-BBL:TerminalBlock2.54mmx2;
 EndCmp
 
 BeginCmp
