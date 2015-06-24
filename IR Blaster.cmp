@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-28 BZR 5690)-product   date = Saturday, June 20, 2015 'AMt' 07:21:34 AM
+Cmp-Mod V01 Created by Cvpcb (2015-05-28 BZR 5690)-product   date = Tuesday, June 23, 2015 'PMt' 09:51:28 PM
 
 BeginCmp
 TimeStamp = /5546A980;
@@ -116,49 +116,49 @@ BeginCmp
 TimeStamp = /55452CD0;
 Reference = D5;
 ValeurCmp = IR LED;
-IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+IdModule  = mysensors_leds:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452D55;
 Reference = D6;
 ValeurCmp = IR LED;
-IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+IdModule  = mysensors_leds:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452D76;
 Reference = D7;
 ValeurCmp = IR LED;
-IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+IdModule  = mysensors_leds:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452DA6;
 Reference = D8;
 ValeurCmp = IR LED;
-IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+IdModule  = mysensors_leds:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /55452DDF;
 Reference = D9;
 ValeurCmp = IR LED;
-IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+IdModule  = mysensors_leds:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /556B2C30;
 Reference = D10;
 ValeurCmp = IR LED;
-IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+IdModule  = mysensors_leds:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
 TimeStamp = /556B419A;
 Reference = D11;
 ValeurCmp = IR LED;
-IdModule  = MySensors-BBL:LED-5MM-Horizontal;
+IdModule  = mysensors_leds:LED-5MM-Horizontal;
 EndCmp
 
 BeginCmp
@@ -193,7 +193,7 @@ BeginCmp
 TimeStamp = /55469631;
 Reference = P4;
 ValeurCmp = PWR;
-IdModule  = MySensors-BBL:TerminalBlock2.54mmx2;
+IdModule  = mysensors_connectors:TerminalBlock2.54mmx2-kcswalter;
 EndCmp
 
 BeginCmp
@@ -333,7 +333,7 @@ BeginCmp
 TimeStamp = /5545493C;
 Reference = U2;
 ValeurCmp = NRF24L01;
-IdModule  = MySensors_Radios:NRF24L01;
+IdModule  = mysensors_radios:NRF24L01;
 EndCmp
 
 BeginCmp
