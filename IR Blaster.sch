@@ -43,7 +43,7 @@ encoding utf-8
 Sheet 1 1
 Title "MySensors IR Blaster"
 Date "5/14/2015"
-Rev "v0.4"
+Rev "v0.5"
 Comp "MySensors.org"
 Comment1 ""
 Comment2 "MySensors MCU Core is derivative work of Thomas Bowman Mørch's SenseBender-Micro"

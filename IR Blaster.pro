@@ -1,4 +1,4 @@
-update=Tuesday, June 23, 2015 'PMt' 08:38:23 PM
+update=Wednesday, June 24, 2015 'PMt' 11:54:51 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -7,16 +7,6 @@ NetIExt=net
 [general]
 version=1
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=$(MYSLOCAL)/mysensors_symbols;
@@ -78,3 +68,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.09999999999999999
 BoardOutlineThickness=0.001
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
